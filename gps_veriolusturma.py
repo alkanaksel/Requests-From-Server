@@ -17,7 +17,7 @@ for i in range(15):
 
 # Sizin takımınızın GPS koordinatlarını belirliyoruz
 my_team = {
-    'Takim_adi': 'Aura',
+    'Takim_adi': 'Takimim',
     'gpsX': round(random.uniform(min_lat, max_lat), 6),
     'gpsY': round(random.uniform(min_lon, max_lon), 6)
 }
