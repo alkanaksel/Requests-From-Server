@@ -5,7 +5,7 @@ import random
 min_lat, max_lat = 36, 42  # Enlem sınırları
 min_lon, max_lon = 26, 45  # Boylam sınırları
 
-# Takımların GPS koordinatlarını rastgele oluşturuyoruz
+# Rakip Takımların GPS koordinatlarını rastgele oluşturuyoruz
 teams = []
 for i in range(15):
     team = {
@@ -15,7 +15,7 @@ for i in range(15):
     }
     teams.append(team)
 
-# Sizin takımınızın GPS koordinatlarını belirliyoruz
+# Bizim takımın GPS koordinatlarını rastgele oluşturuyoruz
 my_team = {
     'Takim_adi': 'Takimim',
     'gpsX': round(random.uniform(min_lat, max_lat), 6),
