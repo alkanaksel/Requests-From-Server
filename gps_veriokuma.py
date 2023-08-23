@@ -6,7 +6,7 @@ import requests
 with open('gps_data.json') as f:
     data = json.load(f)
 
-# Sizin takımınızın GPS koordinatları
+# Bizim takımın GPS koordinatları
 team_lat = data['Bizim Takim']['gpsX']
 team_lon = data['Bizim Takim']['gpsY']
 
